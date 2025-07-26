@@ -15,7 +15,7 @@ public class DemoController {
 
 //    //constructor
     @Autowired
-public DemoController(@Qualifier("italianChef") Chef theChef) {
+public DemoController(Chef theChef) {
             myChef = theChef;
     }
 
