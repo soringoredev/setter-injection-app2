@@ -1,15 +1,13 @@
 package pixel.academy.setter_injection_app.common;
 
-
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Primary
 @Component
-public class ItalianChef implements Chef {
-
+public class FrenchChef implements Chef {
     @Override
     public String getDailyRecipe() {
-        return "Prepare pasta al pomodoro with fresh tomatoees and basil.";
+        return "Preparez boeuf bourgignon avec des legumes.";
     }
 }
